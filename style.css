@@ -25,6 +25,7 @@ h1{
     display:flex;
     align-items: center;
     justify-content: center;
+    gap:2rem;
 }
 .flexcolumn{
     display: flex;
@@ -34,7 +35,7 @@ h1{
 }
 .main{
     padding-top:2rem;
-    gap:16px;
+    gap:2rem;
     justify-content: space-between;
     flex:auto;
     padding-bottom:2rem;
@@ -45,6 +46,8 @@ h1{
     height:auto;
     justify-content:space-between;
     max-width: 1260px;
+    padding:0, 2rem;
+    box-sizing:border-box;
 
 }
 
@@ -53,13 +56,17 @@ h1{
     height:auto;
     border-top:1px solid rgb(212, 212, 216);
     max-width: 1260px;
+    padding:0, 2rem;
+    box-sizing: border-box;
     
 }
 button{
     margin:auto;
 }
-.left{
+.left,
+.right{
     padding-inline-start: 0;
+    gap:1rem;
 }
 .spacer{
     height:500px;
@@ -69,11 +76,11 @@ ul{
     list-style-type: none;
     gap: 1rem;
 }
-.left a,
-.left a:link,
-.left a:hover,
-.left a:visited,
-.left a:active{
+ a,
+ a:link,
+ a:hover,
+ a:visited,
+ a:active{
     text-decoration: none;
     color:black;
 }
@@ -117,11 +124,20 @@ footer{
     max-width: 1260px;
     width: 100%;
     margin: 0 auto;
-    padding:0, 2rem;
+    padding: 0 2rem;
+
   }
   .header{
     width:100%;
     box-shadow: 0 4px 6px -1px #0000001a,0 2px 4px -2px #0000001a;
     gap:0;
     padding:0;
+    box-sizing: border-box;
+}
+.imgwrapper{
+    height:10rem;
+    width:10rem;
+    background-color: aqua;
+    border-radius: 50%;
+    flex-shrink:0;
 }
