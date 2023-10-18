@@ -20,6 +20,7 @@ h1{
     padding-right:2rem;
 }
 
+
 .flexrow{
     display:flex;
     align-items: center;
@@ -29,22 +30,30 @@ h1{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap:2rem;
 }
 .main{
     padding-top:2rem;
     gap:16px;
     justify-content: space-between;
+    flex:auto;
+    padding-bottom:2rem;
+    max-width: 1260px;
+    margin:auto;
 }
 .namehold{
     height:auto;
     justify-content:space-between;
+    max-width: 1260px;
+
 }
 
 .buttonhome{
     justify-content: space-between;
     height:auto;
     border-top:1px solid rgb(212, 212, 216);
-    box-shadow: 0 4px 6px -1px #0000001a,0 2px 4px -2px #0000001a;
+    max-width: 1260px;
+    
 }
 button{
     margin:auto;
@@ -71,13 +80,13 @@ ul{
 footer{
     height:4rem;
     background-color: #f5f5f5;
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top:auto;
 }
 .footerbutton{
     border-radius: 100%;
@@ -87,4 +96,32 @@ footer{
 }
 .buttoncontainer{
     gap:.75rem;
+}
+.flex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin:auto;
+  }
+  img{
+    width:400px;
+    height:auto;
+  }
+  .leftmain,
+  .rightmain{
+    height:100%
+  }
+
+  .new-container {
+    max-width: 1260px;
+    width: 100%;
+    margin: 0 auto;
+    padding:0, 2rem;
+  }
+  .header{
+    width:100%;
+    box-shadow: 0 4px 6px -1px #0000001a,0 2px 4px -2px #0000001a;
+    gap:0;
+    padding:0;
 }
