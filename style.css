@@ -62,6 +62,8 @@ h1{
 }
 button{
     margin:auto;
+    padding: 0.8725rem 0.125rem;
+    border-radius: 100%;
 }
 .left,
 .right{
@@ -96,8 +98,6 @@ footer{
     margin-top:auto;
 }
 .footerbutton{
-    border-radius: 100%;
-    padding: 1.5rem .5rem;
     background-color: pink;
 
 }
@@ -118,6 +118,9 @@ footer{
   .leftmain,
   .rightmain{
     height:100%
+  }
+  .rightmain{
+    justify-content: space-between;
   }
 
   .new-container {
