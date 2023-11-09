@@ -11,7 +11,7 @@
 <body class="flex-wrapper">
 
     <header class="flexcolumn container header">
-        <div class="new-container">
+        <div class="header-size-limiter">
             <div class= "flexrow namehold">
             <div class="name">
                 <a>
@@ -21,13 +21,15 @@
             </div>
             <nav class="buttonhome flexrow">
             <ul class="left flexrow">
-               <li><a href=""><span>Home</span></a></li>
-               <li><a href=""><span>About</span></a></li>
-               <li><a href=""><span>Teaching</span></a></li>
-               <li><a href=""><span>Research</span></a></li>
-               <li><a href=""><span>Art</span></a></li>
+               <li><a href="">Home</a></li>
+               <li><a href="">About</a></li>
+               <li><a href="">Teaching</a></li>
+               <li><a href="">Research</a></li>
+               <li><a href="">Art</a></li>
+               <li><a href="">Books</a></li>
             </ul>
             <ul class="right flexrow">
+              <!--I want svg's here that represent each item, looking glass rainbow Ff button and question mark !-->
                 <button>Search</button>
                 <button>Colors</button>
                 <button>Fonts</button>
@@ -45,8 +47,8 @@
                 <!--You need to find good pictures to use to put here. Add a hover state some type of js/css animation that makes it slightly larger, and maybe highlights it in theme with the color of the menu item? Who knows?-->
                 <a><div class="imgwrapper"></div></a>
                 <div>
-                    <a href=""> <!-- Maybe add a span with an arrow png to increase UX and then add a hover state to the links? Would be cool if they lit up with splashes of color or something. Maybe incorporate something from her research in the color pattern on black + white?-->
-                        <h2> About</h2>
+                    <a href="" class="menulink"> <!-- Maybe add awith an arrow png to increase UX and then add a hover state to the links? Would be cool if they lit up with splashes of color or something. Maybe incorporate something from her research in the color pattern on black + white?-->
+                        <h2> About </h2>
                     </a>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse libero tortor, tempor non semper id, pulvinar a felis. Vestibulum orci leo, sollicitudin et pretium in, volutpat ac tellus. Pellentesque fermentum nibh non ultrices fringilla. Donec in tortor neque. Aenean faucibus ante ipsum, sed gravida lorem fringilla at.</p>
                 </div>
@@ -85,6 +87,17 @@
                     </div>
                 </div>
          </div>
+         <div class="flexrow menu">
+           <div class="flexrow">
+              <a><div class="imgwrapper"></div></a>
+              <div>
+                  <a href="">
+                      <h2> Books</h2>
+                  </a>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse libero tortor, tempor non semper id, pulvinar a felis. Vestibulum orci leo, sollicitudin et pretium in, volutpat ac tellus. Pellentesque fermentum nibh non ultrices fringilla. Donec in tortor neque. Aenean faucibus ante ipsum, sed gravida lorem fringilla at.</p>
+              </div>
+          </div>
+          </div>
      </div>
 
      <div class="flexcolumn rightmain">
@@ -102,7 +115,7 @@
             <p>filler text</p>
         </div>
      </div>
-     
+
     </main>
 
     <footer>
@@ -110,11 +123,6 @@
         <div class="buttoncontainer flexrow">
             <!--Lowkey should be a ul here, should prob change that at some point buddy. Also, You need PNG's of all of the logos that you want to throw
             onto these buttons.-->
-        <button class="footerbutton">button</button>
-        <button class="footerbutton">button</button>
-        <button class="footerbutton">button</button>
-        <button class="footerbutton">button</button>
-        <button class="footerbutton">button</button>
         </div>
     </footer>
 </body>

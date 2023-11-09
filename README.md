@@ -17,3 +17,4 @@ to serve your purposes for now, and upgrade it as my skills level up. I don't kn
 Now that I've yapped for long enough, we're going to include any notes about the website's development here as a quick little guide for our young adventurer.
 
 
+11/9: Got annoyed with trying to read all of my mismanaged classes and ID's so we're tearing it down and starting from scratch. Also need to make it more readable for collaborators, since my friend Gojo from The Odin Project has volunteered his services!

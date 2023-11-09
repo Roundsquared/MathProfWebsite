@@ -4,22 +4,58 @@
     --2xl:1.25rem;
     --xl:1.125rem;
     --xs:.75rem;
+    --main-text-color:#231f20;
+    --accent-color:#7f7caf;
+    --color3:#fcbcb8;
+    --color4:#6a7152;
+    --color5:#d2f1e4;
+
 }
+/* * {
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+}*/
+
 body{
     height:100vh;
     background-color:white;
 }
-.container{
-    padding:0 2rem;
-}
+
 h1{
     line-height: 2rem;
     font-size: var(--4xl);
     font-family: Inconsolata,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
     font-weight: 300;
-    padding-right:2rem;
+    color:var(--main-text-color);
 }
-
+button{
+  margin:auto;
+  padding: 0.8725rem 0.125rem;
+  border-radius: 100%;
+}
+ul{
+  list-style-type: none;
+  gap: 1rem;
+}
+a,
+a:link,
+a:visited,
+a:active{
+    text-decoration: none;
+    color:var(--main-text-color);
+}
+a:hover{
+  color:var(--accent-color);
+  background-color: var(--color3);
+}
+img{
+  width:400px;
+  height:auto;
+}
+.container{
+  padding:0 2rem;
+}
 
 .flexrow{
     display:flex;
@@ -46,7 +82,7 @@ h1{
     height:auto;
     justify-content:space-between;
     max-width: 1260px;
-    padding:0, 2rem;
+    padding:0 1.25rem;
     box-sizing:border-box;
 
 }
@@ -60,32 +96,22 @@ h1{
     box-sizing: border-box;
     
 }
-button{
-    margin:auto;
-    padding: 0.8725rem 0.125rem;
-    border-radius: 100%;
-}
+
 .left,
 .right{
     padding-inline-start: 0;
     gap:1rem;
+    margin:0;
+    height:4rem;
+}
+.left a{
+  padding:1.5rem 1.5rem;
 }
 .spacer{
     height:500px;
     background:green;
 }
-ul{
-    list-style-type: none;
-    gap: 1rem;
-}
- a,
- a:link,
- a:hover,
- a:visited,
- a:active{
-    text-decoration: none;
-    color:black;
-}
+
 footer{
     height:4rem;
     background-color: #f5f5f5;
@@ -111,10 +137,7 @@ footer{
     justify-content: flex-start;
     margin:auto;
   }
-  img{
-    width:400px;
-    height:auto;
-  }
+  
   .leftmain,
   .rightmain{
     height:100%
@@ -123,7 +146,7 @@ footer{
     justify-content: space-between;
   }
 
-  .new-container {
+  .header-size-limiter {
     max-width: 1260px;
     width: 100%;
     margin: 0 auto;
@@ -144,3 +167,7 @@ footer{
     border-radius: 50%;
     flex-shrink:0;
 }
+.arrow{
+  height:2rem;
+}
+  
