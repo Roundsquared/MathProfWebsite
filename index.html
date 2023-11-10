@@ -2,131 +2,52 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carolyn Yackel's Website</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
-
-<body class="flex-wrapper">
-
-    <header class="flexcolumn container header">
-        <div class="header-size-limiter">
-            <div class= "flexrow namehold">
-            <div class="name">
-                <a>
-                    <h1> Carolyn Yackel</h1>
-                </a>
-            </div>
-            </div>
-            <nav class="buttonhome flexrow">
-            <ul class="left flexrow">
-               <li><a href="">Home</a></li>
-               <li><a href="">About</a></li>
-               <li><a href="">Teaching</a></li>
-               <li><a href="">Research</a></li>
-               <li><a href="">Art</a></li>
-               <li><a href="">Books</a></li>
-            </ul>
-            <ul class="right flexrow">
-              <!--I want svg's here that represent each item, looking glass rainbow Ff button and question mark !-->
-                <button>Search</button>
-                <button>Colors</button>
-                <button>Fonts</button>
-                <button>Random</button>
-            </ul>
-            </nav>
-        </div>
-    </header>
-
-    <main class="flexrow container main">
-
-     <div class="flexcolumn leftmain">
-         <div class="flexrow menu">
-            <div class="flexrow">
-                <!--You need to find good pictures to use to put here. Add a hover state some type of js/css animation that makes it slightly larger, and maybe highlights it in theme with the color of the menu item? Who knows?-->
-                <a><div class="imgwrapper"></div></a>
-                <div>
-                    <a href="" class="menulink"> <!-- Maybe add awith an arrow png to increase UX and then add a hover state to the links? Would be cool if they lit up with splashes of color or something. Maybe incorporate something from her research in the color pattern on black + white?-->
-                        <h2> About </h2>
+<body class="flexColumn">
+    <div id="flex-site-container">
+        <header class="flexColumn">
+            <div class="size-limiter">
+                <div class="name">
+                    <a href="">
+                        <h1>Carolyn Yackel</h1>
                     </a>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse libero tortor, tempor non semper id, pulvinar a felis. Vestibulum orci leo, sollicitudin et pretium in, volutpat ac tellus. Pellentesque fermentum nibh non ultrices fringilla. Donec in tortor neque. Aenean faucibus ante ipsum, sed gravida lorem fringilla at.</p>
                 </div>
+                <nav class="flexRow">
+                    <div class="menu-wrapper flexRow">
+                        <ul class="flexRow">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Teaching</a></li>
+                            <li><a href="">Research</a></li>
+                            <li><a href="">Books</a></li>
+                            <li><a href="">Art</a></li>
+                        </ul>
+                    </div>
+                    <div class="style-wrapper flexRow">
+                        <ul class="flexRow">
+                            <li><button>Search</button></li>
+                            <li><button>Fonts</button></li>
+                            <li><button>Random</button></li>
+                            <li><button>Light/Dark</button></li>
+                        </ul>
+                    </div>
+                </nav>
             </div>
-         </div>
-         <div class="flexrow menu">
-                <div class="flexrow">
-                    <a><div class="imgwrapper"></div></a>
-                    <div>
-                        <a href="">
-                            <h2> Teaching</h2>
-                        </a>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse libero tortor, tempor non semper id, pulvinar a felis. Vestibulum orci leo, sollicitudin et pretium in, volutpat ac tellus. Pellentesque fermentum nibh non ultrices fringilla. Donec in tortor neque. Aenean faucibus ante ipsum, sed gravida lorem fringilla at.</p>
-                    </div>
-                </div>
-         </div>
-         <div class="flexrow menu">
-                <div class="flexrow">
-                    <a><div class="imgwrapper"></div></a>
-                    <div>
-                        <a href="">
-                            <h2> Research</h2>
-                        </a>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse libero tortor, tempor non semper id, pulvinar a felis. Vestibulum orci leo, sollicitudin et pretium in, volutpat ac tellus. Pellentesque fermentum nibh non ultrices fringilla. Donec in tortor neque. Aenean faucibus ante ipsum, sed gravida lorem fringilla at.</p>
-                    </div>
-                </div>
-         </div>
-         <div class="flexrow menu">
-                <div class="flexrow">
-                    <a><div class="imgwrapper"></div></a>
-                    <div>
-                        <a href="">
-                            <h2> Art</h2>
-                        </a>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse libero tortor, tempor non semper id, pulvinar a felis. Vestibulum orci leo, sollicitudin et pretium in, volutpat ac tellus. Pellentesque fermentum nibh non ultrices fringilla. Donec in tortor neque. Aenean faucibus ante ipsum, sed gravida lorem fringilla at.</p>
-                    </div>
-                </div>
-         </div>
-         <div class="flexrow menu">
-           <div class="flexrow">
-              <a><div class="imgwrapper"></div></a>
-              <div>
-                  <a href="">
-                      <h2> Books</h2>
-                  </a>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse libero tortor, tempor non semper id, pulvinar a felis. Vestibulum orci leo, sollicitudin et pretium in, volutpat ac tellus. Pellentesque fermentum nibh non ultrices fringilla. Donec in tortor neque. Aenean faucibus ante ipsum, sed gravida lorem fringilla at.</p>
-              </div>
-          </div>
-          </div>
-     </div>
+        </header>
+        <main class="flexRow size-limiter">
+            <div class="flexColumn" id="home-links">
 
-     <div class="flexcolumn rightmain">
-        <div>
-            <img src="Yackel Profile Pic.jpeg" alt="Dr.Yackel!">
-            <p>filler text</p>
-        </div>
-        <div>
-            <p>filler text</p>
-        </div>
-        <div>
-            <p>filler text</p>
-        </div>
-        <div>
-            <p>filler text</p>
-        </div>
-     </div>
+            </div>
+            <div class="flexColumn" id="home-adtl-content">
 
-    </main>
+            </div>
+        </main>
+        <footer class="flexRow">
 
-    <footer>
-        <h2> Here's some info at the bottom!</h2>
-        <div class="buttoncontainer flexrow">
-            <!--Lowkey should be a ul here, should prob change that at some point buddy. Also, You need PNG's of all of the logos that you want to throw
-            onto these buttons.-->
-        </div>
-    </footer>
+        </footer>
+    </div>
 </body>
-<script src="script.js">
-
-</script>
 </html>
